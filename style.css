@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
-
 body{
     margin: 0px;
     padding: 0px
-    font-family: "Comfortaa", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+
 }
 
 header{
@@ -29,5 +24,47 @@ nav{
 nav a{
     font-size: 24px;
     text-decoration: none;
-    color: #078600;
+    color: rgb(5, 121, 139);
+}
+
+.about{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 40px;
+    background-color: rgb(207, 238, 243);
+    border-bottom-left-radius: 200px 200px;
+    border-bottom-right-radius: 200px 200px;
+    border-top-left-radius: 200px 200px;
+    border-top-right-radius: 200px 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutPic{
+    margin-right: 15px;
+}
+
+.ava{
+    width: 15vw;
+    min-width: 150px;
+}
+
+.icons{
+    width: 75px;
+}
+
+.stack{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.techno{
+    width: 100vw;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
